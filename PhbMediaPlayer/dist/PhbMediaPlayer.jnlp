@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PhbMediaPlayer.jnlp">
+  <information>
+    <title>PhbMediaPlayer</title>
+    <vendor>WIN10</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PhbMediaPlayer.jar" size="6691" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PhbMediaPlayer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="phbmediaplayer.PhbMediaPlayer"  name="PhbMediaPlayer" />
+  <update check="always"/>
+</jnlp>
